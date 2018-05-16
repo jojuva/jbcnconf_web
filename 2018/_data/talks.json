@@ -219,7 +219,7 @@
     },
     {
       "title": "A Craftsman’s Guide to Designing a Clean Architecture",
-      "abstract": "In 2018, it seems like Microservices are the de facto standard for a system architecture, but do they really live up to the hype?\n\nThe talk will show you an alternative approach, how we can tame complexity with the help of a clean, monolithic architecture that is modular to the core.\nBack in 1972, David Parnas coined the most important fundamental concept in object-oriented design: modularity. Java is deliberately built from the ground up on a modular basis: Methods, classes, packages. Additionally, the module system was introduced in Java 9. Modularity is based on three pillars: high cohesion, low coupling and strong encapsulation. We will look at these three basic concepts in detail – what are they, how are they related to one another and how can we apply them on all levels of our architecture?\nThe talk will show you how you can apply these basic concepts to develop a clean, monolithic architecture at scale, based on Java 9 modules and the hexagonal architecture pattern.\nFinally, we will critically discuss microservices. We'll look at what microservices are, as well as at their advantages and disadvantages. We'll examine the technical and organizational requirements necessary for implementing a microservice architecture. Additionally, we'll explore when we should and shouldn't make use of microservices. Finally, we'll learn how to achieve a clean microservice architecture.\n",
+      "abstract": "In 2018, it seems like Microservices are the de facto standard for a system architecture, but do they really live up to the hype?\n\nThe talk will show you an alternative approach - how we can tame complexity with the help of a clean, monolithic architecture that is modular to the core. Java has been deliberately built from the ground up on a modular basis: Methods, classes, packages. Additionally, the module system was introduced in Java 9. Modularity is based on the fundamental concepts of high cohesion and low coupling. We will look at these concepts, as well as some further measures, in detail. We'll check out what they are, how they are related to one another, and what the best practices are for applying them on all levels of the architecture.\nThe talk will show you how you can apply these basic concepts to develop a clean, monolithic architecture, based on Java 9 modules and the hexagonal architecture pattern",
       "type": "talk",
       "tags": [
         "Java",
@@ -563,7 +563,7 @@
   },
   {
     "title":"RxJava Code Lab",
-    "abstract":"Reactive programming is mentioned everywhere these days. It solves many common issues of imperative programming in an elegant way. Dozens of libraries are springing up, giving developers access to powerful tools that make their everyday development life easier. However, it can take time to learn how to wield these tools effectively as they are often difficult to understand and if used improperly they can sometimes do more harm than good.\n\nThis code lab will first go with you through RxJava basics, in order to demonstrate the main concepts and common use-cases of the ReactiveX framework, as well as reactive programming in general. It should make RxJava and reactive programming much clearer to you and give you lots of ideas of when and where you might want to use it. Once you have seen what it can do, you won't want to go back to how you were programming before!",
+    "abstract":"Reactive programming is mentioned everywhere these days. It solves many common issues of imperative programming in an elegant way. Dozens of libraries are springing up, giving developers access to powerful tools that make their everyday development life easier. However, it can take time to learn how to wield these tools effectively as they are often difficult to understand and if used improperly they can sometimes do more harm than good.\n\nThis code lab will first go with you through RxJava basics, in order to demonstrate the main concepts and common use-cases of the ReactiveX framework, as well as reactive programming in general. It should make RxJava and reactive programming much clearer to you and give you lots of ideas of when and where you might want to use it. Once you have seen what it can do, you won't want to go back to how you were programming before!<br/><br/><span style=\"text-decoration: underline;\">Requirements for the workshop</span>: <a href=\"https://github.com/jraska/RxJava-Codelab\" style=\"text-decoration: underline; color: blue;\" target=\"_blank\">Follow this link</a>",
     "type":"workshop",
     "tags":["Reactive Programming","Rx","Java","Mobile"],
     "level":"beginner",
@@ -654,5 +654,226 @@
       "Web app"],
     "level": "beginner",
     "speakers": ["QU1haGR5QWJkZWxheml6YW1haGR5N0BnbWFpbC5jb20="]
+  },
+  {
+    "title": "When Old Meets New: Turning Maven into a High Scalable, Resource Efficient, Cloud Ready Microservice",
+    "abstract": "Embracing Microservice Architecture in a new project is something that most of developers want! But how about the old and gold projects that are not designed and planned for it? What about refactoring a real legacy piece of software that is stable and used by almost all Java developers out there? Maven is the defacto standard tool for project management and comprehension for almost every Java project. Even alternative tools use Maven’s repository format and even export/integrate with its reach project object model (POM). Maven is mostly well know to be executed in command line, integrated in most Java IDEs or even through most CI/CD tools like Jenkins. But we wanted more, we wanted to turn Maven into a truly scalable microservice, taking advantage of Kubernetes container orchestration… we would like to be able to build any Java project in a efficient and resource efficient. And we did it! We’ll present this Microservice tool that you can use local or remote via REST interface and we’ll also explore the challenges that we faced to turn monolithic maven to a powerful microservice. Come to this talk to see how we transformed Maven builds in a Cloud Ready Microservice. Some covered topics are: -What are the architectural patterns in order to move an old monolithic legacy codebase to the microservices world; -What are the trade-offs with this refactoring; -How we automatically turn any Maven build into incremental ones; -How to create RESTful Web APIs to expose legacy codebase; -How everything fits together on Drools and jBPM ecosystem.",
+    "type": "talk",
+    "tags": [
+      "Java",
+      "Maven",
+      "Microservices",
+      "Rest",
+      "Scalable",
+      "CI",
+      "CD",
+      "Integration",
+      "Cloud",
+      "Hacking"
+    ],
+    "level": "advanced",
+    "speakers": [
+      "d0ad39041e641ff2cfc220a0f7ae315f826f59b8"
+    ]
+  },
+  {
+  "title": "Lightweight Enterprise Java with MicroProfile",
+  "abstract": "I laugh at people that tell me that Java is slow, heavyweight and cumbersome. Maybe it was true when we had EJB2. I will prove to you that we can develop Enterprise Applications with just a few lines of code that can run on a Raspberry PI. If it runs on a PI, I think we can safely say it would run anywhere! To be able to do it, I’m going to use a new platform called Microprofile. Microprofile optimizes Enterprise Java for a Microservices Architecture and delivers application portability across multiple runtimes. You can use a subset of the Java EE specifications to develop Microprofile applications, with JAX-RS, CDI, and JSON-P. Join me for this live coding session and help me spread the word that Java is actually great for the Enterprise.",
+  "type": "talk",
+  "tags": [
+  "java",
+  "microservices",
+  "microprofile"
+  ],
+  "level": "beginner",
+  "speakers": [
+  "1d2bc689a08a82df0bd09571219c937e658c5407"
+  ]
+  },
+  {
+  "title": "Apache Kafka from the trenches",
+  "abstract": "If you’re a regular conference visitor, you’ll probably have attended at least one talk about Apache Kafka. Mostly you get all the good stuff about the product itself, the high level architecture and maybe some examples of a message driven “Hello World”. But what does it really take to start using Kafka in your Java application? What do the API’s look like? What will it take for you to be able to send or consume a message? In this session I’ll try to show as much of the reality of integrating with Kafka as possible in the form of some live coding. I’ll start from scratch and show you everything you have to do to make it work, both in Spring and in standard Java.",
+  "type": "talk",
+  "tags": [
+  "Kafka",
+  "Eventing",
+  "Decoupling"
+  ],
+  "level": "middle",
+  "speakers": [
+  "f9735e896fb3811ae30aeec2330214dcf6f7ff40"
+  ]
+  },
+  {
+  "title": "The Dark Side of Java 8 - Lessons Learned",
+  "abstract": "Java 8 was one of the most important Java releases ever... but still wasn't free of bugs, or just places where things could've been done better. \n\nIn this session, we'll go through a quick post-mortem session and explore what went wrong with the Stream API, Lambda Expressions, and much more, along with ways how we can address those problems.",
+  "type": "talk",
+  "tags": [
+  "Java 8",
+  "Functional Programming"
+  ],
+  "level": "middle",
+  "speakers": [
+  "dcf4d5f83bc2dab51fb90922055352668da14a18"
+  ]
+  },
+  {
+  "title": "7 Deadlier Sins of Craftsmanship",
+  "abstract": "We are all human and we all have our sins. In our professional lives as well. Unfortunately we do not realize many of them, and even the smallest ones, can have a negative impact on what is happening in our everyday work and our teams. Committed, over and over again, they affect everything that is important in our projects both from business and technical perspective. These small bugs in our behaviour can lead to worse requirements understanding, bad decision making and decrease technical quality. \nDuring the presentation, I would like to share my observations and thoughts, which sins to avoid and what to pay attention to, not to land in the coder's hell.\n",
+  "type": "talk",
+  "tags": [
+  "Software Craftsmanship",
+  "Culture",
+  "Cognitive Biases",
+  "Improvement"
+  ],
+  "level": "beginner",
+  "speakers": [
+  "1c9e35308c401793ad51011657e043b382416bef"
+  ]
+  },
+  {
+    "title": "Cirque du application development - containers, Kubernetes, and OpenShift",
+    "abstract": "This workshop prepares web and application developers to build applications using Containers, Kubernetes, and OpenShift. We’ll start with a short introduction to containers and Kubernetes, which are the foundation of OpenShift.\n\nUsing hands-on exercises, we will walk you through tasty menu of applications and uses cases for OpenShift. How about showing you how easy it can be to deploy your pre-built containers? Maybe showing how health checks so OpenShift can heal your application. Let’s dig in to build containers by just giving a git repository. Want to see easy application scaling - no problem! Wish you could do A/B deployment - your wish is our command. Finally we will show you a complete microservice application with DB and polyglot backed services.\n\nYou bring your curiosity and willingness to code and we will teach all you need to go home and start building pure awesomeness on OpenShift.",
+    "type": "workshop",
+    "tags": [
+      "java",
+      "kubernetes",
+      "cloud",
+      "paas",
+      "containers"
+    ],
+    "level": "beginner",
+    "speakers": [
+      "b33fa71d4efd0c60b13345115cb00f92c352394c",
+      "ff55294f8464ef742da59a126c35e25670d377dc"
+    ]
+  },
+  {
+    "title": "The JVM concurrency toolbox: a treasure trove for the curious engineer",
+    "abstract": "The JVM offers rich concurrency support, from language primitives to high level APIs in the standard library, which are fundamental in every programmer's tool belt. Those layers of abstraction spare us from complexity, but also hide significant implications for application code, and make a treasure trove of techniques that any curious engineer could benefit from.\n\nThis talk is adequate for developers with basic working knowledge of Java concurrency. You will take a peek inside the layers closest to your code (from java.util.concurrent APIs down to the JVM), gaining a better understanding of what goes on behind the scenes when you use java threads, synchronization, or the concurrent apis. You will explore ways to apply this knowledge in practice and discover cases where concurrency sometimes matters even if you're not writing concurrent code.",
+    "type": "talk",
+    "tags": [
+      "jvm",
+      "java",
+      "concurrency",
+      "scala"
+    ],
+    "level": "middle",
+    "speakers": [
+      "c45f58eb5100118866ec4bf9cf18ca42cff28e21"
+    ]
+  },
+  {
+    "title": "Clean Architecture the right way! Or almost…",
+    "abstract": "In this talk we will analyze some implementations of Clean Architecture that are common in the Android community, and we’ll see how they fit into the original proposal from Robert C. Martin.\n\nWe will focus on those parts that usually don’t follow the theory, discussing on what we could improve if we had followed the original proposal. Finally, we will observe how this rules applied along with Kotlin provide other benefits besides maintainability, scalability or readability of code.\n\nEverything based on the real experience of building an app used by millions. ",
+    "type": "talk",
+    "tags": [
+      "Clean Architecture",
+      "Android",
+      "Kotlin"
+    ],
+    "level": "advanced",
+    "speakers": [
+      "4e685685878fa58b6313ce1646240bbfcc87801c"
+    ]
+  },
+    {
+      "title": "Asynchronous programming with Kotlin coroutines",
+      "abstract": "Coroutines is a new feature in Kotlin 1.1. It allows for writing an asynchronous code almost just like if it was regular/synchronous. This makes coroutines a great alternative to existing approaches for writing asynchronous applications.\n\nIn this session, I'll show how coroutines work in Kotlin. You'll learn about new syntax and implementation details. You'll find out about the differences between coroutines-based and reactive-based solutions. You'll also see a sample Spring-based application which uses coroutines,",
+      "type": "talk",
+      "tags": [
+        "Kotlin",
+        "coroutines",
+        "async",
+        "Reactive Programming"
+      ],
+      "level": "middle",
+      "speakers": [
+        "beff468d22deac694476d7587dd84d6148af61cc"
+      ]
+    },
+    {
+      "title": "Make your own chess engine and change the world!",
+      "abstract": "Artificial intelligence is revolutionizing the world. Everything from autonomous vehicles to self-checkout cash registers is changing the face of many industries, and computers outperform people in an ever-increasing number of tasks. Words such as neural networks, machine learning and intelligent agents gets thrown around a lot, and it can be difficult to know where to start if you want to venture into the world of artificial intelligence.\n\nIn this workshop we'll cover the basics. First you'll get an introduction to a couple of fundamental classical artificial intelligence topics. Then you'll use those techniques to make your own chess engine. Finally you'll put your chess engine to the test by competing against the other workshop participants.\n\nThis is the workshop for those who learn by doing, enjoy chess, and want to learn about some of the basic building blocks of artificial intelligence. The focus is on hands-on programming, and you'll travel home with practical experience and knowledge of several classic AI-related techniques.\n\nBring your laptop and join the adventure of making your own home-made chess engine!",
+      "type": "workshop",
+      "tags": [
+        "Chess",
+        "Artificial Intelligence",
+        "Programming"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "6216c13c3648212feee1ca1e6936e24361b014f8",
+        "6008fec2ba23040fbac705898aff6a1af5b1be16"
+      ]
+    },
+  {
+    "title": "Fantastic Bytecodes and How To Interpret Them",
+    "abstract": "In this talk we'll discuss the basic architecture of the JVM and the bytecode set of the interpreter. We'll show the families of bytecodes and how they operate. We'll discuss what's needed to implement a simple cutdown JVM and show an open-source teaching JVM (Ocelot) in practice.",
+    "type": "talk",
+    "tags": [
+      "Java",
+      "Bytecode",
+      "JVM Internals"
+    ],
+    "level": "middle",
+    "speakers": [
+      "a71020196a6877a18aa38df8e51e12fc6807d6c7"
+    ]
+  },
+    {
+      "title": "Java EE 8 finally final! And now Jakarta EE?",
+      "abstract": "It is an exciting time for enterprise Java! First, Java EE 8 was recently finalized. But more importantly, Oracle surprised the industry by transitioning the development of the Enterprise platform to the Eclipse Foundation under the EE4J umbrella.\n\nThis session will first introduce you to some of the new capabilities introduced in Java EE 8 and how they align with Jakarta EE.  We will also discuss what EE4J and Jakarta EE mean for the platform going forward and why this is important for the whole ecosystem!\n\nAttend this session to understand what Java EE is today and what Jakarta EE will be tomorrow!\n",
+      "type": "talk",
+      "tags": ["javaee",
+        "jakarta"],
+      "level": "middle",
+      "speakers": ["a744f52d967ebb543100a1215f9fe38080a664f0"]
+    },
+    {
+      "title": "Functional DB access in Scala with Doobie",
+      "abstract": "Accessing a database is something many applications need and most of developers have do to during their career. During the past 20 years, (relational) database access in the JVM world hasn't changed that much. Luckily for us, despite some of the limitations the JDBC spec has, there are now some libraries that give us the ability to access the database in a complete different way.\n\nThis workshop will be an introduction to accessing a database using a functional paradigm using Doobie, a \"pure functional JDBC layer for Scala\". It will cover the following:\n- Introduction, concepts\n- Basic queries (select, insert, update)\n- NULL handling\n- Auto-mapping to case classes\n- Joins\n- Transactions",
+      "type": "workshop",
+      "tags": ["Scala",
+        "Functional Programming",
+        "Testing",
+        "Databases"],
+      "level": "beginner",
+      "speakers": ["5e33bcfcec8a5f49984b8ba6f22794fcfeaa4568"]
+    },
+  {
+      "title": "From Legacy to Cloud",
+      "abstract": "Everybody is enthusiastic about the \"cloud\", but how do I can transfer my old rusty application to this shiny new world?\n\nThis presentation describes the migration process of a ten-year-old web application to a Kubernetes based platform. The app is written in Java with Wicket 1.4 as the Web framework of choice, running on a plain Jetty 6 servlet engine with Mysql 5.0 as backend. Step by step we will migrate this application to Docker containers, eventually running on a self-provisioned Kubernetes cluster in the cloud.\n\nWe will hit some stumbling blocks, but still, we will see how this migration could be performed relatively effortless.\n\nIn the end, we have learned, that \"containerisation\" does not only make sense for green-field projects but also for older applications to pimp up their legacy.",
+      "type": "talk",
+      "tags": [
+          "Cloud",
+          "Kubernetes",
+          "Docker",
+          "Migration"
+      ],
+      "level": "beginner",
+      "speakers": [
+          "ab961367d4eccd998be5e65c43aec1ef0ca91e56"
+      ]
+  },
+  {
+      "title": "Let's do reactive web applications with Spring 5, Web Flux and Kafka",
+      "abstract": "With IoT starting to be a \"real thing\", user experience getting its rightful centric place and data loads increasing daily, new (or not so new) architectural patterns and techniques are raising interest. Here is where reactive programing sits now. Async and non-blocking approaches help scalability at the same time they leverage stream processing to implement pseudo-real time with low server overhead. Furthermore, well known frameworks add support for this \"raising patterns\" to ease their adoption. Here is where Spring WebFlux and Spring Cloud Stream Reactive come into the party.\n\nWe are going to show how easy is to build a web application that offers pseudo real-team updates using these technologies. \n\nMain topics to cover:\n- Spring 5 WebFlux, Async API and Netty\n- Spring Cloud Stream Reactive with Kafka binders\n- Kafka Streams API with Spring.\n\nWe will use a sample JS web frontend and a Kubernates deployment to add some salt and pepper to the receipt.",
+      "type": "workshop",
+      "tags": [
+          "Java",
+          "Reactive",
+          "Spring",
+          "Scalability",
+          "Kubernates",
+          "Kafka",
+          "Streams"
+      ],
+      "level": "middle",
+      "speakers": [
+          "675c0972b5f59c5f97c123154394ff80bcdd8155",
+          "259baea1670f31b1a7f52f274e2c610f52f43033"
+      ]
   }
 ]}
