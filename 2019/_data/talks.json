@@ -1,0 +1,264 @@
+{
+  "items": [
+    {
+      "id": "5c19647038da16778cb20fc5",
+      "title": "OOP v̶s̶ and FP ",
+      "abstract": "Object Oriented Programming dominated the software development landscape in the last decade of XX century and in the first of XXI. In more recent years, even as a consequence of the advent of multicore CPUs, Functional Programming and its principles started attracting more interest, becoming at least equally relevant in our industry. The biggest mistake made by programmers nowadays is considering OOP and FP as two mutually exclusive paradigms. This misconception is also the product of a misunderstanding about what OOP actually means and its founding principles. The biggest pros of OOP are polymorphism and encapsulation while FP strengths are immutabilty and its declarative style, but these features are orthogonal and there's no reason why they cannot coexist in the same program. The final purpose of this talk is twofold: debunking the misconceptions on OOP and showing that OOP and FP are actually complementary techniques that can happily coexist in the same codebase. It is the duty of experienced developers to fill their toolbox with both OOP and FP tools and to know from time to time how to choose and employ the tool that is the best fit for the problem at hand.",
+      "type": "talk",
+      "tags": [
+        "Java",
+        "Functional Programming",
+        "Object Oriented Programming",
+        "Design pattern",
+        "Best practices"
+      ],
+      "level": "middle",
+      "speakers": [
+        "16fd0826550372e61a8c17d3acdf30d0871de728"
+      ]
+    },
+    {
+      "id": "5c19651d38da16778cb20fc6",
+      "title": "Poker Hands - Refactoring into Chain of Responsibility",
+      "abstract": "Poker Hands are are put into sequential order and the player who holds the highest one wins. Let’s make fun of it then and perform some refactorings of code that identifies what poker figure given player holds. We will transform a set of nested if-else statements into a nice chain of responsibility classes (Straight Flush, Four of a Kind, Full House, ...) . This way the chain of classes put into sequential order will figure out the score given player holds. Proxy design patterns will come into the picture as well.\n\nAll I can promise during this refactoring workshop is definitely no bluffing - just pure focus on code transformations. BTW : Did you know that real poker players are bluffing very rarely…? \n\nPrerequisite : become acquainted with poker rules if you haven’t played it so far, as business perspective and understanding existing code is the initial step for any refactoring. And don’t forget to install IntelliJ IDE - our master refactoring tool!",
+      "type": "workshop",
+      "tags": [
+        "Refactoring",
+        "Design Patterns",
+        "Java"
+      ],
+      "level": "middle",
+      "speakers": [
+        "34e64a4d88094a0c4231d49cc0305d61d7b854ee"
+      ]
+    },
+    {
+      "id": "5c196dd738da165f64820b29",
+      "title": "Reactive Spring",
+      "abstract": "Microservices and big-data increasingly confront us with the limitations of traditional input/output. In traditional IO, work that is IO-bound dominates threads. This wouldn't be such a big deal if we could add more threads cheaply, but threads are expensive on the JVM, and most other platforms. Even if threads were cheap and infinitely scalable, we'd still be confronted with the faulty nature of networks. Things break, and they often do so in subtle, but non-exceptional ways. Traditional approaches to integration bury the faulty nature of networks behind overly simplifying abstractions. We need something better.\n\nSpring Framework 5 is here ! It introduces the Spring developer to a growing world of support for reactive programming across the Spring portfolio, starting with a new Netty-based web runtime, component model and module called Spring WebFlux, and then continuing to Spring Data Kay, Spring Security 5.0, Spring Boot 2.0 and Spring Cloud Finchley. Sure, it sounds like a lot, but don't worry! Join me, your guide, Spring developer advocate Josh Long, and we'll explore the wacky, wonderful world of Reactive Spring together.\n\n",
+      "type": "talk",
+      "tags": [
+        "java",
+        "reactive",
+        "spring",
+        "mongodb",
+        "sql",
+        "postgresql",
+        "rsocket"
+      ],
+      "level": "middle",
+      "speakers": [
+        "3803f8e428feb905178afd9025cfc53fb47a8abc"
+      ]
+    },
+    {
+      "id": "5c196e0238da165f64820b2a",
+      "title": "The Istio Workshop",
+      "abstract": "The first generation of microservices was primarily shaped by Netflix OSS and leveraged by numerous Spring Cloud annotations all throughout your business logic. The next generation of microservices will leverage sidecars and a service mesh. In this session, we will give you a taste of Envoy and Istio, two open source projects that will change the way you write distributed Java applications on Kubernetes. Check out how we use Envoy and Istio to deal with traffic shaping, network fault-injection, A/B testing, dark launches, mirroring, and much more.",
+      "type": "workshop",
+      "tags": [
+        "microservices",
+        "java",
+        "cloud native",
+        "service mesh"
+      ],
+      "level": "middle",
+      "speakers": [
+        "c5224c12852709f7ae60fa80d93f46fd2d64a5c4"
+      ]
+    },
+    {
+      "id": "5c196e1138da165f64820b2b",
+      "title": "Fantastic Frameworks and How to Avoid Them",
+      "abstract": "As high-level programming languages users, we love bold promises of getting all our problems solved just by adding a few annotations. \n\nThose few annotations come often bundled with other magical techniques like classpath scanning or dynamic proxies… and creep into our domain models contributing to long-term maintainability issues... and/or consultancy and premium enterprise support costs.\n\nIn this session, we’ll have a look at the cons of adopting invasive frameworks and how we can minimize the problems they cause.",
+      "type": "talk",
+      "tags": [
+        "Java",
+        "Architecture",
+        "Methodology"
+      ],
+      "level": "middle",
+      "speakers": [
+        "dcf4d5f83bc2dab51fb90922055352668da14a18"
+      ]
+    },
+    {
+      "id": "5c196e2c38da165f64820b2c",
+      "title": "Bulletproof Java Enterprise Applications for The Hard Production Life",
+      "abstract": "It’s one thing to develop Java Enterprise applications, to execute, and validate them in test environments. Running the application in production, however, is a whole other story. Production life is harsh, unforgivable and the ultimate verification whether your application is able to add value to its users. Besides knowing the Java Enterprise APIs, developers therefore also need to know how to meet production requirements.\n\nThis session shows which non-functional requirements we enterprise developers need to be aware of to build stable and resilient applications. We will see different resiliency approaches, such as circuit breakers, bulkheads, or backpressure, in action. We will implement these concepts using the Java Enterprise API, MicroProfile, and certain Java EE extensions. Furthermore, we will see, how especially service meshes enable us to add resiliency to multiple microservices in a transparent, redundancy-free fashion.\n\nAdding telemetry to our applications is crucial to gather insights about the application under production load. We will see how to enhance our microservices with concerns such as monitoring, tracing, or logging in a minimalistic way.\n\nAll of the time will be spent live-demoing Java Enterprise applications that are deployed to an Istio cluster.",
+      "type": "talk",
+      "tags": [
+        "Enterprise Java",
+        "Production Environments",
+        "Cloud Native Java"
+      ],
+      "level": "middle",
+      "speakers": [
+        "1799a6d25dbe9b65e5a25078815b20fc9af956f4"
+      ]
+    },
+    {
+      "id": "5c196e3638da165f64820b2d",
+      "title": "Kotlin & Implications in an IoT project ",
+      "abstract": "Develop IoT solutions with Kotlin is possible thanks to the incorporation to Kotlin as a first class programming language to Android and the becoming of Android Things, an optimized version of Android for embedded devices. This talk is looking for explore the aspects around IoT projects, Hardware, Security, Server Side, Data Analysis from the hand of Android Things and Kotlin.\n\nThe Internet of Things is a technology that has been echoing for some time. Arriving to generate interesting and attractive solutions. It usually happens that those who develop this type of solutions know about the Hardware, or they only have knowledge of the Software side. This talk seeks to explore all those aspects around IoT in the hand of a real project for monitoring fishbowls (something that you can implement at home). \n\nIn the hardware side, we will use sensors and different technologies for handle the information obtained from these (Raspberry PI, Arduino, etc). Since we want to show how to use Kotlin for develop IoT solutions, we will use Android Things with Kotlin and Raspberry PI. \n\nThe server side, using Serverless or IoT cloud solutions, options to analyze our information. Finally, is important take some considerations over the security aspects in IoT projects, although there are not yet 100% solid solutions, there are already efforts to solve this.",
+      "type": "talk",
+      "tags": [
+        "JVM langs (Kotlin)",
+        "IoT",
+        "Android"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "d43c4a28c6222750fcef9b5b50013ea8ed897d19"
+      ]
+    },
+    {
+      "id": "5c1bbfa338da160e621b7a80",
+      "title": "Micro Frontend: the microservice puzzle extended to frontend",
+      "abstract": "Microservices are at the top of the hype right now and perhaps you’ve already fallen for them and are replacing your good old monolith for new shiny microservices on the back-end.\n\nBut have you ever considered doing the same on the front-end? Even hype-r (or crazy-er, we’ll let you judge), have you tried mixing different JavaScript frameworks (let’s say AngularJS, Angular and React for example) in a Single Page Application?\n\nThat’s what Micro Frontend is and that’s what we’ve done at Saagie. In this talk I’d like to give you feedback on the different architectures we’ve tried, their pros and cons and help you find which one would be the best for you, just in case you’d like to opt for the dark and crazy side of front-end.",
+      "type": "talk",
+      "tags": [
+        "micro-services",
+        "front-end"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "df5c3701545056ca5229efe9b77ad91acf69ea02"
+      ]
+    },
+    {
+      "id": "5c24ec6b38da163bd315a05f",
+      "title": "Interaction Protocols: It's all about good manners",
+      "abstract": "Distributed and concurrent systems can be considered a social group that collaborate to achieve collective goals. In order to collaborate a system of rules must be applied that affords good hygiene, fault tolerance, and effective communication to coordinate, share knowledge, and provide feedback in a polite trusted manner. These rules form a number of protocols which enable the group to act as a system which is greater than the sum of the individual components.\n\nIn this talk we will explore the history of protocols and their application when building distributed systems.",
+      "type": "talk",
+      "tags": [
+        "Design",
+        "Distributed Systems",
+        "Concurrency"
+      ],
+      "level": "middle",
+      "speakers": [
+        "8f62b44cd97764484d759b364f5bf32e558a5edd"
+      ]
+    },
+    {
+      "abstract": "Some say they can read people and tell by their expressions or body language what kind of personality they have. But what if it is possible to read people from the code they write? It would perhaps be possible to tell who to avoid because they are a little bit aggressive and who to approach because they like to help out other people. In this talk we will explore what research is conducted on the relation between personality traits and programming semantics.",
+      "id": "5c36672c38da16698cf41add",
+      "level": "beginner",
+      "speakers": [
+        "f99b4c8793cc70d6cfcb9b1c78e7c99a76b10d2e"
+      ],
+      "tags": [
+        "#cleancode",
+        "#design"
+      ],
+      "title": "Me, My Code and I",
+      "type": "talk"
+    },
+    {
+      "id": "5c36675b38da16698cf41ade",
+      "title": "Nowadays Architecture Trends, from Monolith to Microservices and Serverless\t",
+      "abstract": "In this session, attendees will learn about a real-world evolution to a Distributed Architecture without being involved of a complete Microservices Madness; we will be covering tips and tricks of an experience of a evolution of a huge EAR Core Banking Application and how we evolve to a modern distributed Architecture until the evolution of use 3rd party services and Serverless; tips, tricks, pros, cons and the reasons for being involved on move forward and present sample code as FaaS and explain the pitfalls of Serverless and the security concerns on this evolution. We will be using snippets code based on JAVA, JWT, JWS, Auth0, Spring Boot and Webflux on Oracle Cloud and Spring Cloud Functions on Amazon Lambdas.",
+      "type": "talk",
+      "tags": [
+        "Java",
+        "Cloud",
+        "Serverless",
+        "Microservices"
+      ],
+      "level": "middle",
+      "speakers": [
+        "4f72f63b37fb9bb3781b7e7b1e3246b1364c02a2"
+      ]
+    },
+    {
+      "id": "5c3e5dbb38da16698cf41b28",
+      "title": "Incremental adoption of microservices with an application gateway",
+      "abstract": "An application gateway is a piece of infrastructure that helps existing applications incrementally adopt new architectures like microservices and serverless. It is not as single purposed as an API gateway, and not as complicated as a full service mesh and provides immediate value. In this talk we’ll explore this emerging pattern.\n\nIn this talk, we'll explore how to leverage an application gateway to get value out of your existing architecture while moving to microservices and serverless. This application gateway uses technologies like Envoy Proxy, GraphQL, and HTTP/2 to help solve some of these problems",
+      "type": "talk",
+      "tags": [
+        "service mesh",
+        "microservices",
+        "cloud",
+        "containers",
+        "envoy proxy",
+        "grpc",
+        "istio",
+        "serverless",
+        "functions",
+        "FaaS"
+      ],
+      "level": "middle",
+      "speakers": [
+        "5f729db9302ead529bf5818e137c0d3117f33fec"
+      ]
+    },
+    {
+      "id": "5c3b3e4538da16698cf41b0a",
+      "title": "Live Refactoring Session: Getting rid of dirty code",
+      "abstract": "In this live hacking, we will look at three typical starting situations for refactoring dirty code. In the first example, we will wade through rotten code: an untested, miserably long, unmaintainable method without any test coverage. In the second code example, it gets a little better. The method is still too long and barely maintainable, but it has some rudimentary test coverage. In the third code example, we look at a method that is fully covered by tests and is free of simple warnings, yet that has deeper structural problems that cannot be solved quickly. In this live coding you get practical advice on how to master a refactoring step by step - even in difficult situations.",
+      "type": "talk",
+      "tags": [
+        "Java",
+        "refactoring",
+        "live coding"
+      ],
+      "level": "middle",
+      "speakers": [
+        "1910f00e3b6a8220979782a1355b8570de1beca0"
+      ]
+    },
+    {
+      "id": "5c44693a9034ae38180b14b2",
+      "title": "IoT powered by Microprofile – Microservices in practice",
+      "abstract": "We are going to show you what happens when the management lets enterprise Java developers and architects decide how we can control the IoT devices in our new office. While it's easy to figure out why Microprofile is cool, it's harder to see how to get in into your project.\n\nBy the end of this talk, you will be introduced into the patterns and software in the enterprise world of Java explaining how to build a build a secure, stable, modular, and integrated system on an example of a completely over-engineered IoT solution to control the lights and plant's well-being in the new office.\n\nFear not if your system is more complex than controlling light bulbs and plants! This talk will show you how easily you can design a good production-ready Java full-stack system based on the Enterprise stack with Microprofile combined with good continuous deployment infrastructure patterns.\n\nThere be code, demos, and (buzzword) dragons.\n",
+      "type": "talk",
+      "tags": [
+        "MicroProfile",
+        "Java",
+        "Enterprise Java",
+        "Microservices"
+      ],
+      "level": "talk",
+      "speakers": [
+        "e4dbc8f86240f1f78408c1e967137aa5d8824024",
+        "ce11badd5e660b5bf2b2025e167a91c302c937d5"
+      ]
+    },
+    {
+      "id": "5c3e5e7f38da16698cf41b29",
+      "title": "Evolving a Pragmatic, Clean Architecture  - A Craftsman's Guide",
+      "abstract": "Are you in a mood for a brainstorm? Join this critical review of the major decisions taken in a typical enterprise application architecture and learn to balance pragmatism with your design goals. Find out how to do just-in-time design to keep as much use-cases as simple as possible.\n\n\nThe core purpose of this presentation is to learn to strike a **balance between pragmatism and maintainability** in your design. Without continuous refactoring, a simple design will inevitably degenerate into a Big Ball of Mud, under the assault of the new features and bugfixes. On the other hand, very highly-factored code can burden the take-off of the development and end up freezing the mindset in some rigid 'a-priori' design.\n\nThe end goal of this talk is to challenge you to rethink critically the architecture of your own systems, and seek ways to simplify it to match your actual needs, with a pragmatic mindset.\n\n\"Architecture is the art of postponing decisions\", said Uncle Bob. This talk takes this idea further and explains an optimal mindset about designing enterprise applications: Evolving (Continuously Refactoring) a Pragmatic (Simple), Clean (aka Onion) Architecture, aiming to provide Developer Safety™️ and Comfort™️. It’s the philosophy that Victor distilled over the past 5 years, designing and implementing 9 applications as IBM Lead Architect, and delivering trainings and advises to many other companies.\n\nYou’ll learn how to break data into pieces (Fit Entities, Value Objects, Data Transfer Objects), how to keep the logic simple (Facades, Domain Services, logic extraction patterns, Mappers, AOP), layering to enforce boundaries (keeping DTOs out of your logic, Dependency Inversion Principle), and many more, all in a dynamic, interactive and extremely entertaining session.\n",
+      "type": "talk",
+      "tags": [
+        "Clean Architecture",
+        "Pragmatic Design",
+        "Clean Code",
+        "Continuous Refactoring",
+        "Facade",
+        "Domain Service",
+        "Value Object",
+        "Emerging Architecture"
+      ],
+      "level": "middle",
+      "speakers": [
+        "d27efdbbf9293c1d2cbcb35559c2558a0707a484"
+      ]
+    },
+    {
+      "id": "5c36688538da16698cf41ae0",
+      "title": "Responsible Microservices",
+      "abstract": "These days, you can’t swing a dry erase marker without hitting someone talking about microservices. Developers are studying Eric Evan’s prescient book Domain Driven Design. Teams are refactoring monolithic apps, looking for bounded contexts and defining a ubiquitous language. And while there have been countless articles, videos, and talks to help you convert to microservices, few have spent any appreciable time asking if a given application should be a microservice. In this talk, I will show you a set of factors you can apply to help you decide if something deserves to be a microservice or not. We’ll also look at what we need to do to maintain a healthy micro(services)biome.\n\nThere are many good reasons to use a microservices architecture. But there are no free lunches. The positives of microservices come with added complexity. Teams should happily take on that complexity...provided the application in question benefits from the upside of microservices. This talk will cut through the hype to help you make the right choice for your unique situation.",
+      "type": "talk",
+      "tags": [
+        "Architecture",
+        "Microservices",
+        "Serverless"
+      ],
+      "level": "middle",
+      "speakers": [
+        "ab822b577be6a2418593327d0530f2e48da634a4"
+      ]
+    }
+  ]
+}

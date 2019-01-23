@@ -1,0 +1,203 @@
+{
+  "items": [
+    {
+      "name": "Venkat Subramaniam",
+      "description": "Java Champion, Founder of Agile Developer, Inc.",
+      "biography": "Dr. Venkat Subramaniam is an award-winning author, founder of Agile Developer, Inc., creator of agilelearner.com, and an instructional professor at the University of Houston. He has trained and mentored thousands of software developers in the US, Canada, Europe, and Asia, and is a regularly-invited speaker at several international conferences. Venkat helps his clients effectively apply and succeed with sustainable agile practices on their software projects. Venkat is a (co)author of multiple technical books, including the 2007 Jolt Productivity award winning book Practices of an Agile Developer. You can find a list of his books at agiledeveloper.com. You can reach him by email at venkats@agiledeveloper.com or on twitter at @venkat_s.",
+      "enabled": "1",
+      "homepage": "http://agiledeveloper.com",
+      "image": "assets/img/speakers/venkat-subramaniam.jpg",
+      "ref": "VmVua2F0U3VicmFtYW5pYW12ZW5rYXRzQGFnaWxlZGV2ZWxvcGVyLmNvbQ",
+      "url": "infoSpeaker.html?ref=VmVua2F0U3VicmFtYW5pYW12ZW5rYXRzQGFnaWxlZGV2ZWxvcGVyLmNvbQ",
+      "twitter": "@venkat_s"
+    },
+    {
+      "biography": "Josh (@starbuxman) is the Spring Developer Advocate at Pivotal. Josh is a Java Champion, author of 6 books (including O'Reilly's Cloud Native Java: Designing Resilient Systems with Spring Boot, Spring Cloud, and Cloud Foundry and the upcoming Reactive Spring) and numerous best-selling video trainings (including Building Microservices with Spring Boot Livelessons with Spring Boot co-founder Phil Webb), and an open-source contributor (Spring Boot, Spring Integration, Spring Cloud, Activiti and Vaadin)",
+      "description": "Spring Developer Advocate at Pivotal and Java Champion",
+      "enabled": "1",
+      "homepage": "http://Start.Spring.IO",
+      "image": "assets/img/speakers/josh-1.jpg",
+      "name": "Josh Long",
+      "ref": "3803f8e428feb905178afd9025cfc53fb47a8abc",
+      "twitter": "@starbuxman",
+      "url": "infoSpeaker.html?ref=3803f8e428feb905178afd9025cfc53fb47a8abc"
+    },
+    {
+      "biography": "Martin is a Java Champion with over 2 decades of experience building complex and high-performance computing systems. He is most recently known for his work on Aeron and SBE. Previously at LMAX he was a co-founder and CTO when he created the Disruptor. Prior to LMAX Martin worked for Betfair, content companies with the world largest product catalogues, and was a lead on some of the most significant C++ and Java systems of the 1990s.",
+      "description": "Java Champion, high-performance & low-latency computing specialist",
+      "enabled": "1",
+      "homepage": "",
+      "image": "assets/img/speakers/martin-thompson.png",
+      "name": "Martin Thompson",
+      "ref": "8f62b44cd97764484d759b364f5bf32e558a5edd",
+      "twitter": "@mjpt777",
+      "url": "infoSpeaker.html?ref=8f62b44cd97764484d759b364f5bf32e558a5edd"
+    },
+    {
+      "biography": "Włodek Krakowski is a team leader and independent technical trainer. Also a developer if the time allows. His main interest is taking care of delivering valued software from different perspectives. These are how people take care of quality of code, how people work together towards providing business value, how people help to grow each other and how people are managed. Currently he works for Ocado as IT Team Leader in Kraków, Poland and also delivers technical / refactoring trainings at www.refactoring.pl.",
+      "description": "Team leader at Ocado",
+      "enabled": "1",
+      "homepage": "http://www.refactoring.pl",
+      "image": "assets/img/speakers/wlodek.jpg",
+      "name": "Wlodek Krakowski",
+      "ref": "34e64a4d88094a0c4231d49cc0305d61d7b854ee",
+      "twitter": "@wlodekkr",
+      "url": "infoSpeaker.html?ref=34e64a4d88094a0c4231d49cc0305d61d7b854ee",
+      "linkedin": "https://www.linkedin.com/in/wlodek-krakowski/"
+    },
+    {
+      "biography": "Grzegorz Piwowarek is a hungry-for-knowledge lead system engineer at Casumo, a trainer at Bottega IT Minds, a blogger at 4comprehension.com, and an OS contributor.\n\nHe was professionally involved in projects involving systems integration, image recognition, and recently highly scalable distributed solutions - improving everything that he sees.\n",
+      "description": "Lead system engineer at Casumo",
+      "enabled": "1",
+      "homepage": "https://4comprehension.com",
+      "image": "assets/img/speakers/grzegorz-piwowarek.jpg",
+      "name": "Grzegorz Piwowarek",
+      "ref": "dcf4d5f83bc2dab51fb90922055352668da14a18",
+      "twitter": "@pivovarit",
+      "url": "infoSpeaker.html?ref=dcf4d5f83bc2dab51fb90922055352668da14a18"
+    },
+    {
+      "biography": "Rosanne is a Software Engineer currently working at Blue4IT. She came the long way around in the IT field with her bachelors degree in Psychology. She works for top companies in the Netherlands always questioning the way things were done. She also likes puzzles, meditating and yoga. ",
+      "description": "Software Engineer at Blue4IT",
+      "enabled": "1",
+      "homepage": "",
+      "image": "assets/img/speakers/rosanne-joosten.png",
+      "name": "Rosanne Joosten",
+      "ref": "f99b4c8793cc70d6cfcb9b1c78e7c99a76b10d2e",
+      "twitter": "@JoostenRosanne",
+      "url": "infoSpeaker.html?ref=f99b4c8793cc70d6cfcb9b1c78e7c99a76b10d2e"
+    },
+    {
+      "biography": "Mario is a principal software engineer at Red Hat working as project lead of Drools, the JBoss rule engine. He has a huge experience as Java developer having been involved in (and often leading) many enterprise level projects in several industries ranging from media companies to the financial sector. Among his interests there are also functional programming and Domain Specific Languages. By leveraging these 2 passions he created the open source library lambdaj with the purposes of providing an internal Java DSL for manipulating collections and allowing a bit of functional programming in Java. He is also a Java Champion and the co-author of \"Java 8 in Action\" published by Manning.\n",
+      "description": "Principal software engineer at Red Hat",
+      "enabled": "1",
+      "homepage": "",
+      "image": "assets/img/speakers/mario-fusco.png",
+      "name": "Mario Fusco",
+      "ref": "16fd0826550372e61a8c17d3acdf30d0871de728",
+      "twitter": "@mariofusco",
+      "url": "infoSpeaker.html?ref=16fd0826550372e61a8c17d3acdf30d0871de728"
+    },
+    {
+      "enabled": "1",
+      "name": "Audrey Neveu",
+      "description": "Fullstack developer at Saagie, Devoxx4Kids hacktivist",
+      "biography": "Audrey is a full-stack passion driven developer working for Saagie. Heavily involved in the French wide Java Community, she’s part of Devoxx4Kids, a not-for-profit global initiative to get children coding, Devoxx France and Les Cast Codeurs, a french podcast on Java, but not only. ",
+      "image": "assets/img/speakers/audrey-neveu.jpeg",
+      "ref": "df5c3701545056ca5229efe9b77ad91acf69ea02",
+      "url": "infoSpeaker.html?ref=df5c3701545056ca5229efe9b77ad91acf69ea02",
+      "homepage": "",
+      "twitter": "@Audrey_Neveu"
+    },
+    {
+      "enabled": "1",
+      "name": "Rafael Benevides",
+      "description": "Director of Developer Experience at Red Hat",
+      "biography": "Rafael Benevides is Director of Developer Experience at Red Hat. With many years of experience in several fields of the IT industry, he helps developers and companies all over the world to be more effective in software development. Rafael considers himself a problem solver who has a big love for sharing. He is a member of Apache DeltaSpike PMC - a Duke’s Choice Award winner project, and a speaker in conferences like JavaOne, Devoxx, TDC, DevNexus and many others.",
+      "image": "assets/img/speakers/rafaelbenevides.png",
+      "ref": "c5224c12852709f7ae60fa80d93f46fd2d64a5c4",
+      "url": "infoSpeaker.html?ref=c5224c12852709f7ae60fa80d93f46fd2d64a5c4",
+      "homepage": "",
+      "twitter": "@rafabene"
+    },
+    {
+      "enabled": "1",
+      "name": "Mercedes Wyss",
+      "description": "CTO at Produactivity, Oracle Groundbreaker, Auth0 Ambassador",
+      "biography": "Mercedes Wyss is a software engineer with more than seven years of experience in the backend, frontend and Android development using Java and Kotlin. Currently, she is a CTO at Produactivity, a startup based in Guatemala. \n\nShe was previously organizing meetings in Guatemala Java Users Group from 2012 to 2016. Now she has two years an a half focusing on increasing women’s participation in STEAM by running a JDuchess Chapter in Guatemala and is theleader of a Google community (Devs+502). \n\nShe is an Oracle Groundbreaker Ambassador and an Auth0 Ambassador, she also has a Duke’s Choice Award in Educational Outreach.",
+      "image": "assets/img/speakers/mercedes-wyss.png",
+      "ref": "d43c4a28c6222750fcef9b5b50013ea8ed897d19",
+      "url": "infoSpeaker.html?ref=d43c4a28c6222750fcef9b5b50013ea8ed897d19",
+      "homepage": "https://medium.com/@itrjwyss",
+      "twitter": "@itrjwyss"
+    },
+    {
+      "enabled": "1",
+      "name": "Sebastian Daschner",
+      "description": "Java Champion, Lead Java Developer Advocate at IBM",
+      "biography": "Sebastian Daschner is a Java Developer Advocate at IBM, a consultant, author, and trainer. He is the author of the book ‘Architecting Modern Java EE Applications’. Sebastian is participating in the JCP, helping forming the future standards of Java EE, serving in the JAX-RS, JSON-P and Config Expert Groups and collaborating on various open source projects. For his contributions in the Java community and ecosystem he was recognized as a Java Champion,Oracle Developer Champion and double 2016 JavaOne Rockstar. Besides Java, Sebastian is also a heavy user of cloud native technologies. He evangelizes computer science practices on https://blog.sebastian-daschner.com, his newsletter, andon Twitter via @DaschnerS. When not working with Java, he also loves to travel the world — either by plane or motorbike.",
+      "image": "assets/img/speakers/sebastian-daschner.jpg",
+      "ref": "1799a6d25dbe9b65e5a25078815b20fc9af956f4",
+      "url": "infoSpeaker.html?ref=1799a6d25dbe9b65e5a25078815b20fc9af956f4",
+      "homepage": "https://blog.sebastian-daschner.com",
+      "twitter": "@DaschnerS"
+    },
+    {
+      "enabled": "1",
+      "name": "Alberto Salazar",
+      "description": "Entrepreneur, Java Champion and founder of the Ecuador Java User Group",
+      "biography": "Alberto Salazar is an entrepreneur, passionate Consultant, Java Champion, Oracle Groundbreaker Ambassador, JUG Leader, Auth0 Ambassador, founder of the Ecuador Java User Group, Java Community Process Associate Member and Java evangelist/trainer. He is the co-author of the book 'Software Architecture with Spring 5.0'. Alberto has been working for 2 decades creating large scalable and high transaction load systems from military software to banking solutions. He is also a frequent speaker at Java conferences such as Oracle Code One, Voxxed Days, Oracle Code, Red Hat Summit, JavaOne,  Oracle Developer Tour Latam, OTN Tours, and local JUG meetings.",
+      "image": "assets/img/speakers/alberto-salazar.jpg",
+      "ref": "4f72f63b37fb9bb3781b7e7b1e3246b1364c02a2",
+      "url": "infoSpeaker.html?ref=4f72f63b37fb9bb3781b7e7b1e3246b1364c02a2",
+      "homepage": "https://lasalazarr.github.io/blog/",
+      "twitter": "@betoSalazar"
+    },
+    {
+      "enabled": "1",
+      "name": "Christian Posta",
+      "description": "Field CTO @soloio_inc, Speaker, Author of \"Istio in Action\" & \"Microservices for Java Developers\"",
+      "biography": "Christian (@christianposta) is Field CTO of cloud application development. He's a global speaker, author, mentor, architect, and contributor to open-source projects. His latest book, Istio in Action, is due out Summer 2019. ",
+      "image": "assets/img/speakers/christian-posta.jpg",
+      "ref": "5f729db9302ead529bf5818e137c0d3117f33fec",
+      "url": "infoSpeaker.html?ref=5f729db9302ead529bf5818e137c0d3117f33fec",
+      "homepage": "http://blog.christianposta.com",
+      "twitter": "@christianposta"
+    },
+    {
+      "enabled": "1",
+      "name": "Marcus Biel",
+      "description": "Director of Developer Experience EMEA for RedHat",
+      "biography": "Marcus is a Clean Code evangelist who has authored a series of video tutorials that focus on teaching others how to create the cleanest and most well-structured code possible. As a conference speaker, he shares his ideas on Java Clean Code development. Marcus is also an author, technical book reviewer and JCP member. In 2017, Marcus was named TOP 13 Java influencer worldwide by jaxenter.com. On his website Clean Code Academy, he offers comprehensive online training for Java Clean Coding.",
+      "image": "assets/img/speakers/marcus-biel.jpg",
+      "ref": "1910f00e3b6a8220979782a1355b8570de1beca0",
+      "url": "infoSpeaker.html?ref=1910f00e3b6a8220979782a1355b8570de1beca0",
+      "homepage": "https://marcus-biel.com",
+      "twitter": "@MarcusBiel"
+    },
+    {
+      "enabled": "1",
+      "name": "Rustam Mehmandarov",
+      "description": "Java Champion and Leader of JavaZone",
+      "biography": "Passionate computer scientist. Leader of JavaZone. Board member and ex-chairman of Norwegian JUG – javaBin. Course instructor. Speaker. Java Champion.",
+      "image": "assets/img/speakers/rustam-mehmandarov.jpg",
+      "ref": "ce11badd5e660b5bf2b2025e167a91c302c937d5",
+      "url": "infoSpeaker.html?ref=ce11badd5e660b5bf2b2025e167a91c302c937d5",
+      "homepage": "",
+      "twitter": "@rmehmandarov"
+    },
+    {
+      "enabled": "1",
+      "name": "Mads Opheim",
+      "description": "Tech Leas at Computas",
+      "biography": "Tech lead who wants to make people awesome in a safe environment. Test-driven development, Domain-driven design and Modern agile are favourite techniques. Working as tech lead in Computas, currently on a project for the Norwegian Courts.",
+      "image": "assets/img/speakers/mads-opheim.jpg",
+      "ref": "e4dbc8f86240f1f78408c1e967137aa5d8824024",
+      "url": "infoSpeaker.html?ref=e4dbc8f86240f1f78408c1e967137aa5d8824024",
+      "homepage": "https://github.com/madsop/talks",
+      "twitter": "@madsopheim"
+    },
+    {
+      "enabled": "1",
+      "name": "Victor Rentea",
+      "description": "Independent Trainer & Coach, Lead Architect at IBM Romania",
+      "biography": "Victor is one of the top Technical Trainers in Romania. He trained and coached more than 1000 developers of 30+ companies over the 6 years of his training activity. At IBM, even though they call him a Lead Architect, he writes code each day: he’s maniac about Clean Code, so expect seeing some hard-core refactoring. Victor is a key community member: organized the largest 3 Bucharest Java User Group meetups in history. In 2018 he founded the **Bucharest Software Craftsmanship Community** in which he runs open sessions about clean code, refactoring, pair programming and TDD. He posts daily on LinkedIN and Twitter thoughts about culture, technical excellence and Software Craftsmanship. Victor is now regularly invited to speak at major international conferences (30+ talks until now, #2 best at Devoxx Belgium 2018). His live-coding sessions are insane, lightning-fast but well crafted, full of enthusiasm, deep insights and take-away tips. Things that he learned the hard way during his 14 years of experience. You can find out more about him on http://victorrentea.ro",
+      "image": "assets/img/speakers/victor-rentea.jpg",
+      "ref": "d27efdbbf9293c1d2cbcb35559c2558a0707a484",
+      "url": "infoSpeaker.html?ref=d27efdbbf9293c1d2cbcb35559c2558a0707a484",
+      "homepage": "http://victorrentea.ro",
+      "twitter": "@victorrentea"
+    },
+    {
+      "enabled": "1",
+      "name": "Nate Schutta",
+      "description": "Developer Advocate at Pivotal",
+      "biography": "Nathaniel T. Schutta is a software architect focused on cloud computing and building usable applications. A proponent of polyglot programming, Nate has written multiple books and appeared in various videos. Nate is a seasoned speaker regularly presenting at conferences worldwide, No Fluff Just Stuff symposia, meetups, universities, and user groups. In addition to his day job, Nate is an adjunct professor at the University of Minnesota where he teaches students to embrace dynamic languages. Driven to rid the world of bad presentations, Nate coauthored the book Presentation Patterns with Neal Ford and Matthew McCullough. Nate recently published Thinking Architecturally available as a free download from Pivotal.",
+      "image": "assets/img/speakers/nate-schutta.jpg",
+      "ref": "ab822b577be6a2418593327d0530f2e48da634a4",
+      "url": "infoSpeaker.html?ref=ab822b577be6a2418593327d0530f2e48da634a4",
+      "homepage": "http://www.ntschutta.io",
+      "twitter": "@ntschutta"
+    }
+  ]
+}
