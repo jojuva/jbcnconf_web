@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 3.7.2"
-gem 'rake'
+gem "jekyll", "~> 3.9.0"
+gem 'rake', '>= 12.3.3'
 gem 'rake-jekyll'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
